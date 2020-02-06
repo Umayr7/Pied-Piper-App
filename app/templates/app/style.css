@@ -1,0 +1,45 @@
+img.wp-smiley,
+  img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 .07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+  }
+
+  .si_captcha_small { width:175px; height:45px; padding-top:10px; padding-bottom:10px; }
+  .si_captcha_large { width:250px; height:60px; padding-top:10px; padding-bottom:10px; }
+  img#si_image_com { border-style:none; margin:0; padding-right:5px; float:left; }
+  img#si_image_reg { border-style:none; margin:0; padding-right:5px; float:left; }
+  img#si_image_log { border-style:none; margin:0; padding-right:5px; float:left; }
+  img#si_image_side_login { border-style:none; margin:0; padding-right:5px; float:left; }
+  img#si_image_checkout { border-style:none; margin:0; padding-right:5px; float:left; }
+  img#si_image_jetpack { border-style:none; margin:0; padding-right:5px; float:left; }
+  img#si_image_bbpress_topic { border-style:none; margin:0; padding-right:5px; float:left; }
+  .si_captcha_refresh { border-style:none; margin:0; vertical-align:bottom; }
+  div#si_captcha_input { display:block; padding-top:15px; padding-bottom:5px; }
+  label#si_captcha_code_label { margin:0; }
+  input#si_captcha_code_input { width:65px; }
+  p#si_captcha_code { clear: left; padding-top:10px; }
+  .si-captcha-jetpack-error { color:#DC3232; }
+
+  .si_captcha_small { width:175px; height:45px; padding-top:10px; padding-bottom:10px; }
+  .si_captcha_large { width:250px; height:60px; padding-top:10px; padding-bottom:10px; }
+  img#si_image_com { border-style:none; margin:0; padding-right:5px; float:left; }
+  img#si_image_reg { border-style:none; margin:0; padding-right:5px; float:left; }
+  img#si_image_log { border-style:none; margin:0; padding-right:5px; float:left; }
+  img#si_image_side_login { border-style:none; margin:0; padding-right:5px; float:left; }
+  img#si_image_checkout { border-style:none; margin:0; padding-right:5px; float:left; }
+  img#si_image_jetpack { border-style:none; margin:0; padding-right:5px; float:left; }
+  img#si_image_bbpress_topic { border-style:none; margin:0; padding-right:5px; float:left; }
+  .si_captcha_refresh { border-style:none; margin:0; vertical-align:bottom; }
+  div#si_captcha_input { display:block; padding-top:15px; padding-bottom:5px; }
+  label#si_captcha_code_label { margin:0; }
+  input#si_captcha_code_input { width:65px; }
+  p#si_captcha_code { clear: left; padding-top:10px; }
+  .si-captcha-jetpack-error { color:#DC3232; }
+

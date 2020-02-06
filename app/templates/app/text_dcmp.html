@@ -1,0 +1,14 @@
+{% extends "app/base.html" %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<form method="POST" enctype="multipart/form-data">
+	{% csrf_token %}
+	<legend class="border-bottom mb-4"> Decompress Text Info </legend>
+	<fieldset>
+		{{ form|crispy }}
+	</fieldset>
+    <button class="code-copy" style="margin:100px;"> Decompress </button>
+</form>
+{% endblock content %}

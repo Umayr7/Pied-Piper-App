@@ -1,0 +1,15 @@
+{% extends "app/base.html" %}
+
+{% block content %}
+
+    <div>
+        <h3 class="title slide-up-animation hidden"> <br> A Lossless Compression Website <br></h3>
+            <button id="code-copy" class="code-copy" style="margin-right: 100px; margin-top: 100px" onclick="window.location.href = 'text';">
+                Text
+            </button>
+        <button class="code-copy" onclick="window.location.href = 'image';">
+            Image
+        </button>
+    </div>
+
+{% endblock content%}

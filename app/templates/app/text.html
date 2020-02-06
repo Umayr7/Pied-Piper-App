@@ -1,0 +1,16 @@
+{% extends "app/base.html" %}
+
+{% block content %}
+
+    <div>
+        <h3 class="title slide-up-animation hidden">A Compression Web Application<br></h3>
+
+        <button id="code-copy" class="code-copy" style="margin-right: 100px; margin-top: 100px" onclick="window.location.href = 'compress_text';">
+            Compress
+        </button>
+        <button class="code-copy" onclick="window.location.href = 'decompress_text';">
+            Decompress
+        </button>
+    </div>
+
+{% endblock content%}
